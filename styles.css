@@ -1,2 +1,17 @@
 
 /* Your CSS Code here. */
+.holder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+  padding: 20px;
+  background-color: #f0f0f0;
+  gap: 50px; 
+}
+
+.item{
+	height: 60px;
+	width: 70px;
+	background-color: aquamarine;
+}
